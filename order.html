@@ -1,40 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Nvidia Bread</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package/favicon-32x32.png">  
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package/favicon-16x16.png">
-    <link rel="manifest" href="favicon_package/site.webmanifest">
-    <link rel="mask-icon" href="favicon_package/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Nvidia Bread - Live up for more!" />
+    <meta name="theme-color" content="#04bd70" />
+    <title>Order Now</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <div id="navbar">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="index.html">Nvidia Bread</a>
-      </li>
-      <li class="nav-item">
-        <a href="order.html">Order Now</a>
-      </li>
-      <li class="nav-item">
-        <a href="specs.html">Specs</a>
-      </li>
-      <li class="nav-item">
-        <a href="contact.html">Contact Ass</a>
-      </li>
-    </ul>
-  </div>
-  <section class="headerpanel">
-    <div class="video-container">
-      <video src="vids/videoplayback.mp4" autoplay loop></video>
+  <body>
+    <div class="loader">
+      <img src="assets/images/loading.gif" />
     </div>
-    <div class="content">
-      <h1>Nivida Bread Elon Musk</h1>
-    </div>
-  </section>
-  <body></body>
+    <header>
+      <span class="image-clickable">
+        <a href="index.html">
+          <h1>Nvidia Bread</h1>
+        </a>
+      </span>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="order.html">Order Now</a></li>
+          <li><a href="specs.html">Specs</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html"><button>Contact Us</button></a>
+    </header>
+    <section class="headerpanel">
+      <div class="video-container">
+        <video src="video/elon.mp4" autoplay loop></video>
+      </div>
+      <div class="content">
+        <h1>Nivida Bread Elon Musk</h1>
+      </div>
+    </section>
+    <script src="js/loading.js"></script>
+  </body>
 </html>

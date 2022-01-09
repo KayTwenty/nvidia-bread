@@ -1,4 +1,4 @@
-# Nvidia Bread
+# Nvidia Bread (V2)
 
 I made this site for a school project, managed to get a 97. **It is not real**.
 I'm just gonna leave it like this :)
